@@ -1,0 +1,53 @@
+body {
+  background-color: beige;
+  font-family: "Inter";
+  padding: 10px;
+}
+
+.card {
+  width: 400px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0 20px 30px #f9f9f9;
+  transform: rotate(-5deg);
+}
+
+.card,
+.card .profile img {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card:hover .profile img {
+  transform: scale(1.15);
+}
+
+.description {
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to top left, #74d690, #5cbfbb);
+  height: 90px;
+  justify-content: left;
+  align-items: center;
+  border-radius: 0 0 30px 30px;
+}
+
+.profile img {
+  margin-left: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.profile h3 {
+  color: white;
+  padding: 10px;
+}

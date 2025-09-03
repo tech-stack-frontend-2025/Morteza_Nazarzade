@@ -1,0 +1,47 @@
+body {
+  background: url(images/space_1440px.jpg);
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-family: "Poppins";
+  font-size: 3.815rem;
+  font-weight: 900;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+
+.main h2 {
+  font-family: "Poppins";
+  font-size: 1.953rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: 300;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 1228px) {
+  body {
+    background: url(images/space_1228px.jpg);
+  }
+}
+
+@media screen and (max-width: 835px) {
+  body {
+    background: url(images/space_835px.jpg);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background: url(images/space_320px.jpg);
+  }
+}

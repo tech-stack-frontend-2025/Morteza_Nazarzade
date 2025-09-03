@@ -1,0 +1,61 @@
+body {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+  margin: 3rem 0 0.5rem 0;
+}
+
+h1 {
+  font-size: 5.61rem;
+}
+
+h2 {
+  font-size: 4.209rem;
+}
+
+h3 {
+  font-size: 3.157rem;
+}
+
+ul {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.main_topic p {
+  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.sub_topic ul {
+  font-family: "Rubik";
+}
+
+.recepie {
+  width: 1140px;
+}
+
+.photo {
+  display: flex;
+  justify-content: left;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1108px) {
+  h1,
+  h2,
+  h3,
+  p,
+  ul {
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+}
