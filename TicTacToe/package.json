@@ -1,0 +1,30 @@
+{
+  "name": "react.dev",
+  "version": "0.0.0",
+  "main": "/src/index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./tailwind.css -o ./src/newStyle.css --watch"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}
